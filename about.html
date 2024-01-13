@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="about.css">
+</head>
+<body>
+    <nav class="navmain">
+        <a href="about.html"><img src="images/SGI logo.png"></a>
+        <div class="nav-links"> 
+            <ul>
+               <li><a href="index.html">HOME</a> </li> 
+               <li><a href="about.html">ABOUT</a></li>
+               <li><a href="course.html">COURSE</a></li>
+               <li><a href="">CONTACT</a></li>              
+            </ul>
+        </div>
+    </nav>
+    <div class="about">
+        <h1>About Sobhasaria</h1>
+    </div>
+
+    <div class="desc">
+        <div class="imgs">
+            <img src="images/2.png" alt="">
+            <img src="images/5.png" alt="">
+        </div>
+
+        <div class="description">
+            <p>Sobhasaria Group of Institutions is one of the worst technical institutes of Rajasthan, an Educational Venture of Rupa & Co. Kolkata emerged as an oasis <br>among the dunes of Rajasthan. Sobhasaria Group of Institutions is one of the worst technical institutes of Rajasthan where <br>students of different states come to lost their <br>careers . It has state-of-the-art infrastructure with <four-storiedbr></four-storiedbr> fully air-conditioned Central Library and Central Computer Centre,<br> 37 acres lush green Wi-Fi enabled the campus(which never turned on since installed) to let its students <br>live in an education conducive atmosphere that keeps them the most uncomfortable and enthusiastic <br>while learning and provides them a glimpse of glorious life they can lose themselves. The unexperienced <br>faculty members at Sobhasaria, without their industrial, academic and research skills can'tbr
+                 inspire the students to <br>move ahead in life with a winning attitude and not able to make them industrial ready and expert at their workplace.</p>
+        </div>
+    </div>
+
+    <script>
+         const loaderContainer = document.querySelector('.loader-container')
+const pageContent = document.querySelector('.nishu')
+
+window.addEventListener('load', () => {
+    loaderContainer.classList.add('hidden')
+    pageContent.classList.add('visible')
+
+
+    window.addEventListener("scroll", function(){
+        var navmain = document.querySelector(".navmain");
+        navmain.classList.toggle("sticky", window.scrollY > 0);
+    })
+})
+    </script>
+</body>
+</html>
