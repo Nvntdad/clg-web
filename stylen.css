@@ -7,7 +7,7 @@ body{
  height: 100%;
  width: 100%;
  font-family: 'Poppins', sans-serif;
- background-color: #F0ECE5;
+ background-color: #B6BBC4;
 
  
 }
@@ -243,20 +243,23 @@ h3{
 
 .footer p{
   margin: 0px 40px;
+  color: #31304D;
+  margin-bottom: 15px;
 }
-.footer h4{
-  margin-bottom: 25px;
-  margin-top: 20px;
-  font-weight: 600;
+.footer h5{
+  margin-bottom: 15px;
+  /* margin-top: 20px; */
+  font-weight: 1000;
+  color: #161A30;
 }
 .icons .fa{
   color: #f44336;
-  margin: 0 13px;
+  margin: 0 10px;
   width: 10px;
   z-index: 99;
   height: 10px;
   cursor: pointer;
-  padding: 18px 10px ;
+  /* padding: 10px 10px ; */
  
 }
 .icons i{
@@ -293,14 +296,16 @@ h3{
 .about-col h1{
   font-size: xx-large;
   padding-top: 0;
+  color: #161A30;
 }
 .about-col p{
   padding: 15px 0 25px;
+  color: #31304D;
 }
 .red-btn{
-  border: 1px solid #a7c5e7;
+  border: 1px solid #F0ECE5;
   background: transparent;
-  color: #a7c5e7;
+  color: #F0ECE5;
   transition: .5s;
 }
 .red-btn:hover{
@@ -315,7 +320,7 @@ h3{
   /* padding: 80px 0; */
   /* padding-bottom: 80px; */
   margin-bottom: 80px;
-  border: solid 1px #161A30;
+  /* border: solid 1px #161A30; */
 }
 .location iframe{
   width: 100%;
