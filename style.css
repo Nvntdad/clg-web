@@ -233,7 +233,6 @@ font-size: 1rem;
 }
 
 .mid{
-  
   background-color: #092635;
   height: 400px;
   width: 100%;
@@ -242,13 +241,58 @@ font-size: 1rem;
 .mid h5{
   font-size: 1.2rem;
   color: #9EC8B9;
+  /* padding-top: 30px; */
+  margin-left: 10px;
+  /* margin-bottom: 20px; */
+  margin-right: 10px;
+  padding-bottom: 10px;
   
 }
 
+
+.mid p{
+  color: #9EC8B9;
+  font-size: 1.1rem;
+  margin-top: 10px;
+  align-content: center;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+@media(max-width: 900px){
+  .mid h5{
+    font-size: .9rem;
+    /* height: 200px; */
+    margin: 0;
+    /* color: #9EC8B9; */
+   
+    width: 100%;
+  }
+  .mid p{
+    font-size: .8rem;
+    /* height: 200px; */
+    margin: 0;
+    padding: 0px px;
+    align-content: center;
+    /* color: #9EC8B9; */
+   
+    width: 100%;
+  }
+}
 @media(max-width: 700px){
 .mid h5{
   font-size: .8rem;
   /* height: 200px; */
+  margin: 0;
+  /* color: #9EC8B9; */
+ 
+  width: 100%;
+}
+.mid p{
+  font-size: .6rem;
+  /* height: 200px; */
+  margin: 0;
+  padding: 0px px;
+  align-content: center;
   /* color: #9EC8B9; */
  
   width: 100%;
@@ -314,6 +358,8 @@ font-size: 1rem;
     justify-content: center;
     overflow: hidden;
   }
+
+
 }
 
 @media(max-width: 700px){
@@ -650,85 +696,6 @@ ul{
   margin-top: 10px;
 }
 
-.footmap{
-  height: 350px;
-  display: flex;
-  align-items: center;
-  background-color: #5C8374;
-  border-top: #9EC8B9 2px solid;
-  justify-content: center;
-
-}
-
-.maps{
-  width: 300px;
-  /* display: flex; */
-  /* margin-left: 50%; */
-  height: 300px;
-  /* padding-right: 20px; */
-  /* padding-left: 20px; */
-  position: relative;
-  text-align: center;
-  background-color: transparent;
-  color: #9EC8B9;
-  overflow: hidden;
-}
-
-
-
-.maptext{
-  /* margin-top: 100px; */
-  margin-bottom: 20px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-weight: 100;
-  font-size: .7rem;
-
-}
-
-@media(max-width: 900px){
-
-  .maps{
-    width: 250px;
-  }
-  .maptext{
-    font-size: .7rem;
-  }
-}
-@media(max-width: 700px){
-
-  .maps{
-    width: 200px;
-  }
-  .maptext{
-    font-size: .5rem;
-  }
-}
-
-.mapo{
-  width: 300px;
-  height: 300px;
-  background-color: #e4e6ff;
-}
-.mappo{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.footline{
-  position: relative;
-  height: 80px;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-  /* background-image: url(clgp.png); */
-  background-color: #5C8374;
-}
-
-.footline img{
-  object-fit: contain;
-}
 
 
 /* lenis css */
