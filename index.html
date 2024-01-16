@@ -105,8 +105,8 @@
           <img src="images/5.png" alt="Image 5">
           <img src="images/6.png" alt="Image 6">
           <img src="images/7.png" alt="Image 7"> -->
-          <!-- Add more images as needed -->
-        <!-- </div>
+          <!-- Add more images as needed
+        </div>
         <button class="prev" onclick="changeSlide(-1)">❮</button>
         <button class="next" onclick="changeSlide(1)">❯</button>
       </div>
@@ -258,31 +258,31 @@ window.addEventListener('load', () => {
 
 // chat gpt js
 
-let slideIndex = 0;
+// let slideIndex = 0;
 
-function showSlide(n) {
-  const slides = document.querySelector('.slides');
-  const images = slides.querySelectorAll('img');
+// function showSlide(n) {
+//   const slides = document.querySelector('.slides');
+//   const images = slides.querySelectorAll('img');
   
-  if (n >= images.length) {
-    slideIndex = 0;
-  } else if (n < 0) {
-    slideIndex = images.length - 1;
-  } else {
-    slideIndex = n;
-  }
+//   if (n >= images.length) {
+//     slideIndex = 0;
+//   } else if (n < 0) {
+//     slideIndex = images.length - 1;
+//   } else {
+//     slideIndex = n;
+//   }
   
-  slides.style.transform = `translateX(-${slideIndex * 100}%)`;
-}
+//   slides.style.transform = `translateX(-${slideIndex * 100}%)`;
+// }
 
-function changeSlide(n) {
-  showSlide(slideIndex + n);
-}
+// function changeSlide(n) {
+//   showSlide(slideIndex + n);
+// }
 
-// Automatic slide change
-setInterval(() => {
-  changeSlide(1);
-}, 3000); // Change slide every 3 seconds (3000ms)
+// // Automatic slide change
+// setInterval(() => {
+//   changeSlide(1);
+// }, 3000); // Change slide every 3 seconds (3000ms)
 
 
 // let slideIndex = 0;
