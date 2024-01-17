@@ -26,7 +26,7 @@ nav img{
 
 }
 .nav-links ul li a{
-  color: #9EC8B9;
+  color: #F0ECE5;
   text-decoration: none;
   font-size: 13px;
 
@@ -35,7 +35,7 @@ nav img{
   content: '';
   width: 0%;
   height: 2px;
-  background: #ffffff;
+  background: #F0ECE5;
   display: block;
   margin: auto;
   transition: 0.5s;
@@ -69,7 +69,7 @@ nav img{
     top: 0;
     left: 0;
     width: 100%;
-    height: 50px;
+    height: 20px;
     overflow: hidden;
     display: flex;
     justify-content: space-between;
@@ -77,9 +77,12 @@ nav img{
     transition: .6s;
     padding-top: 20px; 
      padding-left: 20px;
+     /* padding-bottom: 0; */
     padding-right: 0px;
     align-items: start;
-    background-color: #092635;
+    border-bottom: #161A30 solid 1px;
+    box-shadow: 0 4px 8px 0 #F0ECE5(0, 0, 0, 0.2), 0 6px 20px 0 #F0ECE5(0, 0, 0, 0.19);
+    background-color: #31304D;
     z-index: 100000;
   }
   
@@ -93,42 +96,50 @@ nav img{
     padding-right: 0px;
     padding-bottom: 10px;
     background-color: #9EC8B9 ;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 4px 8px 0 #F0ECE5(0, 0, 0, 0.2), 0 6px 20px 0 #F0ECE5(0, 0, 0, 0.19);
   }
   
+  @media(max-width: 700px) {
+    .navmain{
+      height: 50px;
+    }
+  }
+
   .navmain.sticky ul li a{
     color: #000000;
   }
 
   .about{
-    background-color: #092635;
+    background-color: #B6BBC4;
     display: flex;
     align-items: center;
     justify-content: center;
     height: 100px;
-    padding-top: 100px;
-    border-bottom: #5C8374 solid 1px;
+    padding-top: 150px;
+    /* border-bottom: #F0ECE5 solid 1px; */
     font-size: 1.4rem;
     text-align: center;
-    color: #9EC8B9;
+    color: #161A30;
 }
 
 .cod{
     position: relative;
-    height: 1000px;
+    height: 100%;
     /* text-align: center; */
     width: auto;
     padding-top: 50px;
-    background-image: linear-gradient(to top,#5C8374,#092635);
+    background-color: #B6BBC4;
 }
 
 .engi{
     /* position: absolute; */
     width: 100%;
     height: 300px;
+    border-bottom: #161A30 solid 1px;
+    border-top: #161A30 solid 1px;
     text-align: center;
     padding-top: 50px;
-    color: #9EC8B9;
+    color: #161A30;
 
 }
 
@@ -140,7 +151,7 @@ nav img{
 
 .engicourse p{
     padding-top: 20px;
-    color: #9EC8B9;
+    color: #161A30;
     font-size: 1.2rem;
 }
 
@@ -153,9 +164,10 @@ nav img{
     /* position: absolute; */
     width: 100%;
     height: 500px;
+    border-bottom: #161A30 solid 1px;
     text-align: center;
     padding-top: 50px;
-    color: #9EC8B9;
+    color: #161A30;
 
 }
 
@@ -167,10 +179,38 @@ nav img{
 
 .mgcourse p{
     padding-top: 20px;
-    color: #9EC8B9;
+    color: #161A30;
     font-size: 1.2rem;
 }
 
 .manage h1{
     font-size: 2.5rem;
+}
+
+
+.deg{
+  /* position: absolute; */
+  width: 100%;
+  border-bottom: #161A30 solid 1px;
+  height: 500px;
+  text-align: center;
+  padding-top: 50px;
+  color: #161A30;
+
+}
+
+.dgcourse{
+  /* position: absolute; */
+  text-align: center;
+  width: 100%;
+}
+
+.dgcourse p{
+  padding-top: 20px;
+  color: #161A30;
+  font-size: 1.2rem;
+}
+
+.deg h1{
+  font-size: 2.5rem;
 }

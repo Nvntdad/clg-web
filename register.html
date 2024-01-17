@@ -21,7 +21,7 @@
     </nav>
     <div class="wrapper">
         <h2>Registration Form</h2>
-        <form method="post" action="" name="submit-to-google-sheet">
+        <form method="post" action="" name="contact-form">
             <label>Name:</label><br>
             <input type="text" name="name" id="input" required><br><br>
             <label>Course Name:</label><br>
@@ -42,8 +42,8 @@
         </form>
     </div>
     <script>
-        const scriptURL = 'https://script.google.com/macros/s/AKfycbx1GtFnhgAh2OJvpBXztOccU7ge5x-7AHmyLVB1thu4bJYpYbCbCB4gtoBCo-VWnK2OqQ/exec'
-  const form = document.forms['submit-to-google-sheet']
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwe4iy3KB8KPbem0i8_CD7C4n7ZDkYBeo1fl3BJbkqqyuyRMm0vfrlUQz2Oj0hxlp7J/exec'
+  const form = document.forms['contact-form']
 
   form.addEventListener('submit', e => {
     e.preventDefault()

@@ -60,6 +60,7 @@
    </div>
 
 
+
    <div class="mid">
       
     <div  class="box">
@@ -104,27 +105,31 @@
         </div>
    <!-- <a href=""><img src="images/law.jpg" alt=""></a>  -->
 </div>
-   
    </div>
 
-  
-    
-   <!-- <div class="hero">
-    <div class="slider">
-        <div class="slides">
-          <img src="images/1.png" alt="Image 1">
-          <img src="images/2.png" alt="Image 2">
-          <img src="images/3.png" alt="Image 3">
-          <img src="images/4.png" alt="Image 4">
-          <img src="images/5.png" alt="Image 5">
-          <img src="images/6.png" alt="Image 6">
-          <img src="images/7.png" alt="Image 7"> -->
-          <!-- Add more images as needed
+
+    <section class="facilities">
+        <div class="fact">
+            <h1>
+                OUR <h1 class="f12"> FACILITIES </h1></h1>
+           </div>
+    <div class="row">
+        <div class="facilities-col">
+            <img src="img/bus 2.jpg">
+            <h3>
+                Bus Transportation
+            </h3>
         </div>
-        <button class="prev" onclick="changeSlide(-1)">❮</button>
-        <button class="next" onclick="changeSlide(1)">❯</button>
-      </div>
-   </div> -->
+        <div class="facilities-col">
+            <img src="img/cafe.jpg">
+            <h3>Cafeteria</h3>
+        </div>
+        <div class="facilities-col">
+            <img src="img/girls.jpg">
+            <h3> Hostel</h3>
+        </div>
+        </div>
+    </section>
 
    <div class="footer">
     <div class="quicklinks">
@@ -182,6 +187,8 @@
 <!-- </div> -->
    </div>
 
+  
+
    <div class="rec">
     <h1>
         OUR <h1 class="h12"> RECRUITERS </h1></h1>
@@ -201,7 +208,7 @@
   </div>
    
 
-
+  
    <!-- javascript -->
    
 
@@ -248,60 +255,6 @@ var copy = document.querySelector(".logos-slide").cloneNode(true);
       document.querySelector(".logos").appendChild(copy);
 // logo slider js end
 
-
-
-// chat gpt js
-
-// let slideIndex = 0;
-
-// function showSlide(n) {
-//   const slides = document.querySelector('.slides');
-//   const images = slides.querySelectorAll('img');
-  
-//   if (n >= images.length) {
-//     slideIndex = 0;
-//   } else if (n < 0) {
-//     slideIndex = images.length - 1;
-//   } else {
-//     slideIndex = n;
-//   }
-  
-//   slides.style.transform = `translateX(-${slideIndex * 100}%)`;
-// }
-
-// function changeSlide(n) {
-//   showSlide(slideIndex + n);
-// }
-
-// // Automatic slide change
-// setInterval(() => {
-//   changeSlide(1);
-// }, 3000); // Change slide every 3 seconds (3000ms)
-
-
-// let slideIndex = 0;
-// const slides = document.querySelectorAll('.slider img');
-
-// function showSlide(n) {
-//   slideIndex = (n + slides.length) % slides.length;
-//   document.querySelector('.slider').style.transform = `translateX(${-slideIndex * 100}%)`;
-// }
-
-// function changeSlide(n) {
-//   showSlide(slideIndex += n);
-// }
-
-// // Automatic Slide Change
-// setInterval(() => {
-//   changeSlide(1);
-// }, 3000); // Change slide every 3 seconds
-
-// // Manual Slide Change on Thumbnail Click (assuming you have thumbnails)
-// slides.forEach((slide, index) => {
-//   slide.addEventListener('click', () => {
-//     showSlide(index);
-//   });
-// });
 
 </script>
 
