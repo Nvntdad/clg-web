@@ -534,6 +534,8 @@ font-size: 1rem;
   align-items: center;
   /* border-top: #9EC8B9 solid 1px; */
   justify-content: space-evenly;
+  border-top: #161A30 solid 1px;
+  border-bottom: #161A30 solid 1px;
   position:relative;
   height: 300px;
   /* margin-top: 100px; */
