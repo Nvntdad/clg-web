@@ -311,6 +311,7 @@ font-size: 1rem;
      font-size: .6rem;
 }
 }
+
 #menu-button{
   display: flex;
   flex-direction: column;
@@ -543,7 +544,7 @@ font-size: 1rem;
 .contactus{
   position: relative;
   color: #161A30;
-  width: 300px;
+  width: 250px;
   padding-right: 20px;
   padding-left: 20px;
   padding-top: 0px;
@@ -726,9 +727,10 @@ ul{
 
 .logos {
   overflow: hidden;
-  padding: 40px 0;
+  padding: 50px 0;
   background: #B6BBC4;
   white-space: nowrap;
+  /* width: 70%; */
   position: relative;
 }
 
@@ -758,11 +760,13 @@ ul{
 
 .logos-slide {
   display: inline-block;
+  /* width: 60%; */
   animation: 35s slide infinite linear;
 }
 
 .logos-slide img {
   height: 50px;
+  /* width: 60%; */
   margin: 0 40px;
 }
 
