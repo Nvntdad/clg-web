@@ -56,7 +56,7 @@
    </div>
    <div class="course">
     <h1>
-        Courses We <h1 class="h12"> Offer</h1></h1>
+        COURSES WE <h1 class="h12"> OFFER </h1></h1>
    </div>
 
 
@@ -180,8 +180,23 @@
 <!-- </div> -->
    </div>
 
-   
+   <div class="rec">
+    <h1>
+        OUR <h1 class="h12"> RECRUITERS </h1></h1>
+   </div>
 
+   <div class="logos">
+    <div class="logos-slide">
+      <img src="./logos/snapdragon-logo-374EF45C05-seeklogo.com.png" />
+      <img src="./logos/Infosys_logo.svg.png" />
+      <img src="./logos/WIT_BIG-0de2dc21.png" />
+      <img src="./logos/Tata_Consultancy_Services_Logo.svg.png" />
+      <img src="./logos/HP_logo_630x630.png" />
+      <img src="./logos/AMD_Logo.svg.png" />
+      <img src="./logos/microsoft.png" />
+      <img src="./logos/accenture.png" />
+    </div>
+  </div>
    
 
 
@@ -225,6 +240,12 @@ window.addEventListener('load', () => {
         navmain.classList.toggle("sticky", window.scrollY > 0);
     })
 })
+
+// logo slider js start
+var copy = document.querySelector(".logos-slide").cloneNode(true);
+      document.querySelector(".logos").appendChild(copy);
+// logo slider js end
+
 
 
 // chat gpt js
