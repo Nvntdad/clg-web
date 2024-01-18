@@ -192,7 +192,7 @@ nav img{
   /* position: absolute; */
   width: 100%;
   border-bottom: #161A30 solid 1px;
-  height: 500px;
+  height: 650px;
   text-align: center;
   padding-top: 50px;
   color: #161A30;
@@ -213,4 +213,48 @@ nav img{
 
 .deg h1{
   font-size: 2.5rem;
+}
+
+.foter{
+  background-color: #B6BBC4;
+  width: 100%;
+  text-align: center;
+  padding: 30px 0;
+
+}
+
+.foter p{
+  margin: 0px 40px;
+  color: #31304D;
+  margin-bottom: 15px;
+}
+.foter h5{
+  margin-bottom: 15px;
+  /* margin-top: 20px; */
+  font-weight: 1000;
+  color: #161A30;
+}
+.icn .fa{
+  color: #f44336;
+  margin: 0 10px;
+  width: 10px;
+  z-index: 99;
+  height: 10px;
+  cursor: pointer;
+  /* padding: 10px 10px ; */
+ 
+}
+.icn i{
+  padding: 10px 10px;
+}
+
+.info{
+
+  margin-right: 100px;
+  margin-left: 100px;
+}
+
+.info p{
+
+  font-size: .8rem;
 }
