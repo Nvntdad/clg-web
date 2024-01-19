@@ -31,6 +31,19 @@ nav img{
   font-size: 13px;
 
 }
+@media(max-width: 460px){
+  .nav-links ul li a{
+    color: #F0ECE5;
+    text-decoration: none;
+    font-size: 10px;
+    /* margin-right: 0px; */
+  
+  }
+
+  .nav-links ul li{
+     padding-right: 0px;
+  }
+}
 .nav-links ul li::after{
   content: '';
   width: 0%;
@@ -130,11 +143,11 @@ nav img{
     padding-top: 50px;
     background-color: #B6BBC4;
 }
-@media(max-width:460){
+/* @media(max-width:460px){
   .cod{
-    height: 2000px;
+    height: 2500px;
   }
-}
+} */
 .engi{
     /* position: absolute; */
     width: 100%;
@@ -163,6 +176,17 @@ nav img{
     font-size: 2.5rem;
 }
 
+@media(max-width:460px){
+  .engi p{
+    font-size: .8rem;
+  }
+  .engi{
+    height: 250px;
+  }
+  .engi h1{
+    font-size: 1.2rem;
+}
+}
 
 .manage{
     /* position: absolute; */
@@ -191,7 +215,17 @@ nav img{
     font-size: 2.5rem;
 }
 
-
+@media(max-width:460px){
+  .manage p{
+    font-size: .8rem;
+  }
+  .manage{
+    height: 350px;
+  }
+  .manage h1{
+    font-size: 1.2rem;
+}
+}
 .deg{
   /* position: absolute; */
   width: 100%;
@@ -217,6 +251,15 @@ nav img{
 
 .deg h1{
   font-size: 2.5rem;
+}
+
+@media(max-width:460px){
+  .deg{
+    height: 1150px;
+  }
+  .deg h1{
+    font-size: 1.2rem;
+  }
 }
 
 .foter{
