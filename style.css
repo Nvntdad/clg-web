@@ -287,7 +287,7 @@ font-size: 1rem;
   /* color: #9EC8B9; */
  
   width: 100%;
-}}
+}
 .mid p{
   font-size: .6rem;
   /* height: 200px; */
@@ -297,7 +297,7 @@ font-size: 1rem;
   /* color: #9EC8B9; */
  
   width: 100%;
-}
+}}
 
 @media(max-width: 460px){
   .mid h5{
@@ -318,7 +318,7 @@ font-size: 1rem;
    
     width: 100%;
   }
-  
+}
 
 .footer ul,p {
   font-size: .8rem;
@@ -332,7 +332,7 @@ font-size: 1rem;
 .footline .nametag{
      font-size: .6rem;
 }
-}
+
 
 @media(max-width: 370px){
   .mid h5{
