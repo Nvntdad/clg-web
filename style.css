@@ -544,7 +544,7 @@ font-size: 1rem;
   }
 } */
 
-@media(max-width:420px){
+@media(max-width:460px){
   .contactus{
 
     margin-right: 70px;
@@ -621,7 +621,7 @@ justify-content: right;
   }
 }
 
-@media(max-width: 420px){
+@media(max-width: 460px){
 
   .quicklinks{
     width: 100px;
@@ -692,7 +692,7 @@ ul{
   }
 }
 
-@media(max-width:420px){
+@media(max-width:460px){
 
   .instituitions{
     padding-left: 0px;
