@@ -31,7 +31,7 @@ nav img{
   font-size: 13px;
 
 }
-@media(max-width: 460px){
+@media(max-width: 480px){
   .nav-links ul li a{
     color: #F0ECE5;
     text-decoration: none;
