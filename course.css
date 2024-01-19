@@ -157,7 +157,6 @@ nav img{
     text-align: center;
     padding-top: 50px;
     color: #161A30;
-
 }
 
 .engicourse{
@@ -255,7 +254,7 @@ nav img{
 
 @media(max-width:460px){
   .deg{
-    height: 1150px;
+    height: 1350px;
   }
   .deg h1{
     font-size: 1.2rem;
