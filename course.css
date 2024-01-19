@@ -130,7 +130,11 @@ nav img{
     padding-top: 50px;
     background-color: #B6BBC4;
 }
-
+@media(max-width:460){
+  .cod{
+    height: 1000px;
+  }
+}
 .engi{
     /* position: absolute; */
     width: 100%;
