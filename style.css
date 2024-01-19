@@ -520,8 +520,10 @@ font-size: 1rem;
 @media(max-width: 450px){
   .footer{
     flex-direction: column;
+    height: 600px;
+    align-items: center;
+    justify-content: center;
   }
-   
   /* display: ; */
 }
 
@@ -541,6 +543,13 @@ font-size: 1rem;
     width: 150px;
   }
 } */
+
+@media(max-width:420px){
+  .contactus{
+
+    margin-right: 70px;
+  }
+}
 
 .contact i{
   margin-right: 15px;
@@ -611,6 +620,15 @@ justify-content: right;
     width: 150px;
   }
 }
+
+@media(max-width: 420px){
+
+  .quicklinks{
+    width: 100px;
+    margin-top: 30px;
+        margin-right: 220px;
+  }
+}
 .quicklinks ul{
   margin-top: 10px;
 }
@@ -671,6 +689,15 @@ ul{
 
   .instituitions{
     padding-left: 60px;
+  }
+}
+
+@media(max-width:420px){
+
+  .instituitions{
+    padding-left: 0px;
+    margin-top: 30px;
+    left: 0;
   }
 }
 
