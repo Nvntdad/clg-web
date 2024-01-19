@@ -278,6 +278,17 @@ nav img{
 
 }
 
+@media(max-width:410px){
+  .deg{
+    height: 1550px;
+  }
+
+  .deg h1{
+    font-size: 1.2rem;
+  }
+
+}
+
 .foter{
   background-color: #B6BBC4;
   width: 100%;
