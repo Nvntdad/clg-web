@@ -941,3 +941,8 @@ html.lenis {
 .lenis.lenis-scrolling iframe {
   pointer-events: none;
 }
+
+::selection{
+  color: #B6BBC4;
+  background-color: #000000;
+}

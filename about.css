@@ -149,3 +149,8 @@ box-shadow:  10px 10px 100px #092635,
     justify-content: center;
     text-align: center;
 }
+
+::selection{
+  color: #B6BBC4;
+  background-color: #000000;
+}
